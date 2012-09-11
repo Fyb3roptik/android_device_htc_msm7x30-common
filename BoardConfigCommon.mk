@@ -87,7 +87,7 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_NO_SECURE_PLAYBACK
 USE_OPENGL_RENDERER := true
 TARGET_NO_HW_VSYNC := true
 TARGET_USES_C2D_COMPOSITION := true
-BOARD_EGL_CFG := device/htc/msm7x30-common/configs/egl.cfg
+BOARD_EGL_CFG := device/htc/msm7x30-common/egl.cfg
 
 # RIL
 BOARD_USE_NEW_LIBRIL_HTC := true
